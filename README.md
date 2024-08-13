@@ -29,14 +29,13 @@ The dataset used to estimate life expectancy comprises a wide range of predictor
 
 1. Data cleaning: Missing values were resolved and categorical variables were converted to factors.
 2. Linear Regression:
-   _Dropped insignificant variables and outliers.
-   _Addressed multicollinearity using VIF analysis.
-   _Achieved improved model performance by iterative feature selection.
+   - Dropped insignificant variables and outliers.
+   - Addressed multicollinearity using VIF analysis.
+   - Achieved improved model performance by iterative feature selection.
 3. Decision Tree:
-   _Utilized the rpart library for building a decision tree model.
-   _Employed 5-fold cross-validation for model evaluation.
-4. Model Evaluation:
-   _Calculated metrics such as RMSE, MAPE, and MAE for each model.
+   - Utilized the rpart library for building a decision tree model.
+   - Employed 5-fold cross-validation for model evaluation.
+4. Model Evaluation: Calculated metrics such as RMSE, MAPE, and MAE for each model.
 
 ## Features
 
